@@ -1,0 +1,17 @@
+{
+  "name": "mejorcompras-backend",
+  "version": "1.0.0",
+  "description": "Backend del comparador de precios MejorCompras (Argentina). Delega cada búsqueda real a un subagente de opencode y cachea los resultados.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

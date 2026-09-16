@@ -1,0 +1,52 @@
+{
+  "slug": "tv-32-pulgadas",
+  "query": "TV 32 pulgadas",
+  "queryNormalizada": "tv 32 pulgadas",
+  "fecha": "2026-09-16T01:52:16.872Z",
+  "agente": "comparador-precios-ar",
+  "tiendasConsultadas": [
+    "Naldo",
+    "Carrefour",
+    "Coto"
+  ],
+  "ofertas": [
+    {
+      "store": "Naldo",
+      "title": "TV Smart Hisense 32 A42k Smart Vidaa Led Hd Hdmi",
+      "price": 309999,
+      "currency": "ARS",
+      "url": "https://www.naldo.com.ar/32-a42k-smart-vidaa-led-hd-hdmi-505753-1/p",
+      "available": true,
+      "fetchedAt": "2026-09-16T01:51:57.934Z"
+    },
+    {
+      "store": "Carrefour",
+      "title": "Smart TV 32\" (precio no obtenible: sitio con JS dinámico/anti-bot)",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.carrefour.com.ar/?q=TV%2032%20pulgadas",
+      "available": false,
+      "fetchedAt": "2026-09-16T01:51:57.934Z"
+    },
+    {
+      "store": "Coto",
+      "title": "Smart Tv Led THS 32\" HD Ths32hd24a Android Tv (precio con 10% DTO digital)",
+      "price": 287999,
+      "currency": "ARS",
+      "url": "https://www.coto.com.ar/productos/smart-tv-led-ths-32-hd-ths32hd24a-android-tv-/_/R-00583165-00583165-200",
+      "available": true,
+      "fetchedAt": "2026-09-16T01:51:57.934Z"
+    }
+  ],
+  "mejorOpcion": {
+    "store": "Coto",
+    "title": "Smart Tv Led THS 32\" HD Ths32hd24a Android Tv (precio con 10% DTO digital)",
+    "price": 287999,
+    "currency": "ARS",
+    "url": "https://www.coto.com.ar/productos/smart-tv-led-ths-32-hd-ths32hd24a-android-tv-/_/R-00583165-00583165-200",
+    "fecha": "2026-09-16T01:51:57.934Z",
+    "motivo": "Menor precio entre las ofertas disponibles"
+  },
+  "nota": "",
+  "fromCache": false
+}

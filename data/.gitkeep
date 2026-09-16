@@ -1,0 +1,4 @@
+# Los resultados de búsqueda quedan guardados acá (cache persistente).
+
+# - data/searches/<slug>.json → detalle de cada búsqueda
+# - data/index.json           → índice con el historial

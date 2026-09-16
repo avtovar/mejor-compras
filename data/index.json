@@ -1,0 +1,12 @@
+{
+  "tv-32-pulgadas": {
+    "query": "TV 32 pulgadas",
+    "fecha": "2026-09-16T01:52:16.872Z",
+    "archivo": "searches/tv-32-pulgadas.json",
+    "cantidad": 3,
+    "tiendas": [
+      "Naldo",
+      "Coto"
+    ]
+  }
+}

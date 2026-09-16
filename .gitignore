@@ -1,0 +1,30 @@
+# ============================================================
+# MejorCompras — .gitignore
+# Nunca se suben: secretos, node_modules, logs ni no_subir/
+# ============================================================
+
+# Carpeta local privada (SOLO en la máquina)
+no_subir/
+
+# Dependencias
+node_modules/
+dist/
+
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials.json
+serviceAccountKey.json
+
+# Logs y temporales
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MejorCompras — Comparador de precios argentino</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="encabezado">
+    <h1>🛒 MejorCompras</h1>
+    <p>Compará precios en Naldo, Carrefour y Coto con agentes de IA. Solo Argentina, solo ARS.</p>
+  </header>
+
+  <main class="contenido">
+    <!-- Formulario de búsqueda -->
+    <form id="form-buscar" class="buscador" autocomplete="off">
+      <input
+        id="input-query"
+        type="text"
+        placeholder="Buscá un producto: TV 32, heladera, zapatillas…"
+        aria-label="Producto a buscar"
+        required
+      />
+      <button id="btn-buscar" type="submit">Buscar con IA</button>
+    </form>
+
+    <!-- Estados: cargando / avisos -->
+    <div id="estado" class="estado" hidden>
+      <div class="spinner" aria-hidden="true"></div>
+      <p id="estado-texto">Buscando en Naldo, Carrefour y Coto con agentes…</p>
+    </div>
+    <p id="aviso-cache" class="aviso-cache" hidden></p>
+    <p id="aviso-error" class="aviso-error" hidden></p>
+
+    <!-- Resultado -->
+    <section id="resultado" hidden>
+      <!-- Mejor opción -->
+      <article id="mejor-opcion" class="card mejor" hidden>
+        <span class="etiqueta-mejor">⭐ MEJOR OPCIÓN</span>
+        <div class="mejor-cuerpo">
+          <div class="mejor-info">
+            <h2 id="mejor-titulo"></h2>
+            <p id="mejor-tienda"></p>
+            <p id="mejor-precio" class="precio-grande"></p>
+            <p id="mejor-motivo" class="motivo"></p>
+          </div>
+          <a id="mejor-enlace" class="btn" target="_blank" rel="noopener noreferrer">Ver oferta</a>
+        </div>
+      </article>
+
+      <!-- Cards por tienda -->
+      <h3 class="sub-seccion">Ofertas por tienda</h3>
+      <div id="grid-tiendas" class="grid-tiendas"></div>
+
+      <p id="nota-agente" class="nota" hidden></p>
+    </section>
+
+    <!-- Búsquedas anteriores -->
+    <section id="historial-seccion" class="historial">
+      <h3>Búsquedas anteriores</h3>
+      <ul id="lista-historial"></ul>
+      <p id="historial-vacio" class="nota">Todavía no hay búsquedas guardadas.</p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>
+      Los precios pueden variar y las tiendas pueden bloquear consultas (anti-scraping, JS dinámico).
+      Resultados a modo informativo.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

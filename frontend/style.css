@@ -1,0 +1,276 @@
+/* ============================================================
+   MejorCompras — estilos
+   Paleta: fondo gris claro, acento azul, mejor opción en ámbar.
+   ============================================================ */
+
+:root {
+  --fondo: #f1f5f9;
+  --superficie: #ffffff;
+  --texto: #0f172a;
+  --texto-suave: #475569;
+  --borde: #e2e8f0;
+  --azul: #2563eb;
+  --azul-oscuro: #1d4ed8;
+  --ambar: #f59e0b;
+  --ambar-claro: #fef3c7;
+  --verde: #16a34a;
+  --rojo: #dc2626;
+  --radio: 14px;
+  --sombra: 0 4px 14px rgba(15, 23, 42, 0.07);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+  line-height: 1.5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- Encabezado ---------- */
+.encabezado {
+  text-align: center;
+  padding: 40px 16px 24px;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #fff;
+}
+
+.encabezado h1 { font-size: 2.2rem; letter-spacing: -0.5px; }
+.encabezado p { opacity: 0.9; margin-top: 6px; font-size: 1rem; }
+
+/* ---------- Contenido ---------- */
+.contenido {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  flex: 1;
+}
+
+/* ---------- Buscador ---------- */
+.buscador {
+  display: flex;
+  gap: 10px;
+  background: var(--superficie);
+  padding: 10px;
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  border: 1px solid var(--borde);
+}
+
+.buscador input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1.05rem;
+  padding: 12px 14px;
+  background: transparent;
+  color: var(--texto);
+  min-width: 0;
+}
+
+.buscador input::placeholder { color: #94a3b8; }
+
+.btn,
+.buscador button {
+  background: var(--azul);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.05s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover,
+.buscador button:hover { background: var(--azul-oscuro); }
+.btn:active,
+.buscador button:active { transform: scale(0.98); }
+.btn:disabled,
+.buscador button:disabled { opacity: 0.6; cursor: not-allowed; }
+
+/* ---------- Estados ---------- */
+.estado {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  padding: 28px 0;
+  color: var(--texto-suave);
+}
+
+.spinner {
+  width: 26px;
+  height: 26px;
+  border: 3px solid var(--borde);
+  border-top-color: var(--azul);
+  border-radius: 50%;
+  animation: girar 0.8s linear infinite;
+}
+
+@keyframes girar { to { transform: rotate(360deg); } }
+
+.aviso-cache {
+  text-align: center;
+  background: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  color: #065f46;
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin: 12px 0;
+}
+
+.aviso-error {
+  text-align: center;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #991b1b;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin: 12px 0;
+}
+
+/* ---------- Resultado ---------- */
+.sub-seccion {
+  margin: 28px 0 14px;
+  font-size: 1.15rem;
+  color: var(--texto);
+}
+
+.card {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+  padding: 18px;
+}
+
+/* Mejor opción destacada */
+.mejor {
+  border: 2px solid var(--ambar);
+  background: linear-gradient(180deg, var(--ambar-claro), #fffbe6);
+  margin-top: 20px;
+}
+
+.etiqueta-mejor {
+  display: inline-block;
+  background: var(--ambar);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+  letter-spacing: 0.3px;
+}
+
+.mejor-cuerpo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.mejor-info h2 { font-size: 1.25rem; margin-bottom: 4px; }
+.mejor-info #mejor-tienda { color: var(--texto-suave); }
+
+.precio-grande {
+  font-size: 1.9rem;
+  font-weight: 800;
+  color: var(--verde);
+  margin-top: 8px;
+}
+
+.motivo { color: var(--texto-suave); font-size: 0.9rem; margin-top: 4px; }
+
+/* Grid de tiendas */
+.grid-tiendas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.card-tienda h4 { font-size: 0.85rem; color: var(--texto-suave); margin-bottom: 6px; }
+.card-tienda .titulo-producto { font-weight: 600; min-height: 2.8em; }
+.card-tienda .precio { font-size: 1.35rem; font-weight: 700; margin: 8px 0; }
+
+.card-tienda .no-disponible {
+  color: var(--rojo);
+  font-size: 0.9rem;
+  margin: 8px 0;
+}
+
+.card-tienda .btn { margin-top: 10px; width: 100%; }
+
+.nota {
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+  background: #f8fafc;
+  border: 1px dashed var(--borde);
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin-top: 16px;
+  white-space: pre-line;
+}
+
+/* ---------- Historial ---------- */
+.historial { margin-top: 40px; }
+
+.historial ul { list-style: none; }
+
+.historial li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+}
+
+.historial li .info { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.historial li .query { font-weight: 600; }
+.historial li .meta { color: var(--texto-suave); font-size: 0.85rem; }
+.historial li .acciones { display: flex; gap: 8px; }
+
+.historial button {
+  border: 1px solid var(--borde);
+  background: #fff;
+  color: var(--azul);
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.historial button:hover { border-color: var(--azul); }
+
+/* ---------- Pie ---------- */
+.pie {
+  text-align: center;
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+  padding: 18px 16px;
+  border-top: 1px solid var(--borde);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+  .buscador { flex-direction: column; }
+  .encabezado h1 { font-size: 1.7rem; }
+  .mejor-cuerpo { flex-direction: column; align-items: flex-start; }
+}

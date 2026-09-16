@@ -1,0 +1,19 @@
+{
+  "tiendas": [
+    {
+      "id": "naldo",
+      "nombre": "Naldo",
+      "urlBase": "https://www.naldo.com.ar/"
+    },
+    {
+      "id": "carrefour",
+      "nombre": "Carrefour",
+      "urlBase": "https://www.carrefour.com.ar/"
+    },
+    {
+      "id": "coto",
+      "nombre": "Coto",
+      "urlBase": "https://www.coto.com.ar/"
+    }
+  ]
+}
