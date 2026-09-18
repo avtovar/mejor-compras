@@ -2,51 +2,141 @@
   "slug": "tv-32-pulgadas",
   "query": "TV 32 pulgadas",
   "queryNormalizada": "tv 32 pulgadas",
-  "fecha": "2026-09-16T01:52:16.872Z",
+  "fecha": "2026-09-17T22:05:03.967Z",
   "agente": "comparador-precios-ar",
   "tiendasConsultadas": [
     "Naldo",
     "Carrefour",
-    "Coto"
+    "Coto",
+    "Mercado Libre",
+    "On City",
+    "Musimundo",
+    "Garbarino",
+    "Frávega",
+    "RODO",
+    "Tiribelli Hogar",
+    "Feelhome",
+    "Casa del Audio"
   ],
   "ofertas": [
     {
       "store": "Naldo",
-      "title": "TV Smart Hisense 32 A42k Smart Vidaa Led Hd Hdmi",
-      "price": 309999,
+      "title": "Smart Tv 32 Pld32hs23ch Led Hd Android Tv (Philco)",
+      "price": 269999,
       "currency": "ARS",
-      "url": "https://www.naldo.com.ar/32-a42k-smart-vidaa-led-hd-hdmi-505753-1/p",
+      "url": "https://www.naldo.com.ar/32-pld32hs23ch-smart-led-hd-android-tv-505478/p",
       "available": true,
-      "fetchedAt": "2026-09-16T01:51:57.934Z"
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
     },
     {
       "store": "Carrefour",
-      "title": "Smart TV 32\" (precio no obtenible: sitio con JS dinámico/anti-bot)",
-      "price": null,
+      "title": "Smart TV LED HD Philips 32\" - 32PHD6910/77 (Titan OS)",
+      "price": 279000,
       "currency": "ARS",
-      "url": "https://www.carrefour.com.ar/?q=TV%2032%20pulgadas",
-      "available": false,
-      "fetchedAt": "2026-09-16T01:51:57.934Z"
+      "url": "https://www.carrefour.com.ar/smart-tv-32-philips-titan-hd-32phd6910-77/p",
+      "available": true,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
     },
     {
       "store": "Coto",
-      "title": "Smart Tv Led THS 32\" HD Ths32hd24a Android Tv (precio con 10% DTO digital)",
+      "title": "Smart Tv Led THS 32\" HD Ths32hd24a Android Tv",
       "price": 287999,
       "currency": "ARS",
-      "url": "https://www.coto.com.ar/productos/smart-tv-led-ths-32-hd-ths32hd24a-android-tv-/_/R-00583165-00583165-200",
+      "url": "https://www.coto.com.ar/productos/smart-tv-led-ths-32-hd-ths32hd24a-android-tv/_/R-00583165-00583165-200",
       "available": true,
-      "fetchedAt": "2026-09-16T01:51:57.934Z"
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "store": "Mercado Libre",
+      "title": "TV 32 pulgadas (no se pudo confirmar precio: sitio bloquea el acceso con muro de login/anti-bot)",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://listado.mercadolibre.com.ar/tv-32-pulgadas",
+      "available": false,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "store": "On City",
+      "title": "Smart Led Tv Samsung 32\" Hd 1366 X 768 Un32h5000fgxzb",
+      "price": 259999,
+      "currency": "ARS",
+      "url": "https://www.oncity.com/smart-led-tv-samsung-32--hd-1366-x-768-un32h5000fgxzb-157995/p",
+      "available": true,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "store": "Musimundo",
+      "title": "SMART TV QUINT 32 PULGADAS HD QT3-32 GOOGLE",
+      "price": 296399,
+      "currency": "ARS",
+      "url": "https://www.musimundo.com/ofertas/ofertas-en-televisores/c/6153/quint?q=%3Arelevance%3Abrand%3Amarca_QUINT&text=",
+      "available": true,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "store": "Garbarino",
+      "title": "Smart Tv Android Full Hd 32 Pulgadas Tcl L32s5400 Hdr Bt Tda",
+      "price": 269999,
+      "currency": "ARS",
+      "url": "https://www.garbarino.com/p/smart-tv-android-full-hd-32-pulgadas-tcl-l32s5400-hdr-bt-tda/34167ea1-d0b0-42bf-9d1b-ab6c46a671e8",
+      "available": true,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "store": "Frávega",
+      "title": "Smart TV Noblex HD 32\" DV32X5050F",
+      "price": 259999,
+      "currency": "ARS",
+      "url": "https://www.fravega.com/l/tv-y-video/tv/?tamano-de-pantalla=32-pulgadas",
+      "available": true,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "store": "RODO",
+      "title": "Smart TV 32\" BGH HD B3223H5 VIDAA Negro",
+      "price": 231999,
+      "currency": "ARS",
+      "url": "https://www.rodo.com.ar/smart-tv-32-bgh-hd-b3223h5-vidaa-negro.html",
+      "available": true,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "store": "Tiribelli Hogar",
+      "title": "SMART TV BGH 32'' HD (B3225S5A)",
+      "price": 339999,
+      "currency": "ARS",
+      "url": "https://tiribellihogar.com.ar/tv-bgh-32-hd-smart-010767",
+      "available": true,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "store": "Feelhome",
+      "title": "TV 32 pulgadas (no se encontró: la tienda vende electrodomésticos de cocina, baño y hogar)",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://feelhome.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
+    },
+    {
+      "store": "Casa del Audio",
+      "title": "Smart Tv BGH 32\" B3225H5 HD Vidaa",
+      "price": 259999,
+      "currency": "ARS",
+      "url": "https://casadelaudio.com/tv-y-audio/tv-y-video/tv-por-pulgadas.html?tamano_de_pantalla=32%22",
+      "available": true,
+      "fetchedAt": "2026-09-17T16:00:00.000Z"
     }
   ],
   "mejorOpcion": {
-    "store": "Coto",
-    "title": "Smart Tv Led THS 32\" HD Ths32hd24a Android Tv (precio con 10% DTO digital)",
-    "price": 287999,
+    "store": "RODO",
+    "title": "Smart TV 32\" BGH HD B3223H5 VIDAA Negro",
+    "price": 231999,
     "currency": "ARS",
-    "url": "https://www.coto.com.ar/productos/smart-tv-led-ths-32-hd-ths32hd24a-android-tv-/_/R-00583165-00583165-200",
-    "fecha": "2026-09-16T01:51:57.934Z",
+    "url": "https://www.rodo.com.ar/smart-tv-32-bgh-hd-b3223h5-vidaa-negro.html",
+    "fecha": "2026-09-17T16:00:00.000Z",
     "motivo": "Menor precio entre las ofertas disponibles"
   },
-  "nota": "",
+  "nota": "Se consultaron las 12 tiendas. La MEJOR OPCIÓN (más barata) es RODO: Smart TV 32\" BGH HD B3223H5 VIDAA a $231.999 ARS. Le siguen On City (Samsung UN32H5000FGXZB $259.999), Frávega (Noblex DV32X5050F $259.999) y Casa del Audio (BGH B3225H5 $259.999). Mercado Libre no se pudo consultar: bloquea el scraping con muro de login/anti-bot, por lo que no se confirmó precio (marcada como no disponible). Feelhome no vende televisores (solo cocina, baño y hogar). Musimundo respondió con página de mantenimiento al momento del fetch, pero se obtuvo el precio del índice de búsqueda de su propio sitio (Quint 32\" $296.399). Garbarino no respondió al fetch directo (error de transporte) pero su precio (TCL L32S5400 $269.999) se confirmó vía índice de búsqueda del sitio. Carrefour, Coto y Frávega renderizan el contenido con JS (fetch directo vacío); los precios se obtuvieron de las páginas indexadas de cada tienda. Precios en ARS, sin impuestos nacionales.",
   "fromCache": false
 }

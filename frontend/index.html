@@ -1,76 +1,260 @@
 <!DOCTYPE html>
+<!-- ↑ Declara que esto es HTML5 (la versión moderna del estándar). -->
 <html lang="es-AR">
+<!-- ↑ lang="es-AR" informa al navegador que la página está en español de Argentina. -->
 <head>
+  <!-- ↑ El head contiene METADATOS de la página: no se ve, pero configura todo. -->
   <meta charset="UTF-8" />
+  <!-- ↑ Codificación de caracteres: permite emojis, tildes, ñ, $, etc. -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MejorCompras — Comparador de precios argentino</title>
+  <!-- ↑ Hace que la página sea responsive: se adapta al ancho de pantallas móviles. -->
+  <title>MejorCompras — Comparador Premium</title>
+  <!-- ↑ Texto que aparece en la pestaña del navegador. -->
+  
+  <!-- Tipografía Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- ↑ Le avisa al navegador que se va a conectar a Google Fonts (optimización). -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- ↑ Carga la fuente "Inter" (pesos desde 400 a 800) desde Google Fonts. -->
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- ↑ Librería de íconos SVG. app.js llama lucide.createIcons() para "pintarlos". -->
+  
   <link rel="stylesheet" href="style.css" />
+  <!-- ↑ Enlaza nuestra hoja de estilos: práctica estándar, CSS separado del HTML. -->
 </head>
 <body>
-  <header class="encabezado">
-    <h1>🛒 MejorCompras</h1>
-    <p>Compará precios en Naldo, Carrefour y Coto con agentes de IA. Solo Argentina, solo ARS.</p>
-  </header>
+  <!-- ↑ Todo lo visible de la página vive dentro del body. -->
+  <div class="app-container">
+    <!-- ↑ Contenedor principal: flex column que ocupa toda la altura y agrupa header/main/footer. -->
 
-  <main class="contenido">
-    <!-- Formulario de búsqueda -->
-    <form id="form-buscar" class="buscador" autocomplete="off">
-      <input
-        id="input-query"
-        type="text"
-        placeholder="Buscá un producto: TV 32, heladera, zapatillas…"
-        aria-label="Producto a buscar"
-        required
-      />
-      <button id="btn-buscar" type="submit">Buscar con IA</button>
-    </form>
-
-    <!-- Estados: cargando / avisos -->
-    <div id="estado" class="estado" hidden>
-      <div class="spinner" aria-hidden="true"></div>
-      <p id="estado-texto">Buscando en Naldo, Carrefour y Coto con agentes…</p>
-    </div>
-    <p id="aviso-cache" class="aviso-cache" hidden></p>
-    <p id="aviso-error" class="aviso-error" hidden></p>
-
-    <!-- Resultado -->
-    <section id="resultado" hidden>
-      <!-- Mejor opción -->
-      <article id="mejor-opcion" class="card mejor" hidden>
-        <span class="etiqueta-mejor">⭐ MEJOR OPCIÓN</span>
-        <div class="mejor-cuerpo">
-          <div class="mejor-info">
-            <h2 id="mejor-titulo"></h2>
-            <p id="mejor-tienda"></p>
-            <p id="mejor-precio" class="precio-grande"></p>
-            <p id="mejor-motivo" class="motivo"></p>
+    <header class="encabezado">
+      <!-- ↑ Header fijo arriba: logo, título y botón de tema. -->
+      <div class="encabezado-content">
+        <div class="logo-area">
+          <span class="logo-emoji">🛒</span>
+          <!-- ↑ Emoji del logo, simple y sin imágenes externas. -->
+          <div>
+            <h1>MejorCompras</h1>
+            <!-- ↑ Título principal del sitio. -->
+            <p>Comparador Inteligente de Precios</p>
           </div>
-          <a id="mejor-enlace" class="btn" target="_blank" rel="noopener noreferrer">Ver oferta</a>
         </div>
-      </article>
+        <button id="btn-tema" class="btn-icon" title="Cambiar tema">
+          <!-- ↑ Botón para alternar tema claro/oscuro; el ID lo usa app.js. -->
+          <i data-lucide="moon" class="tema-dark"></i>
+          <i data-lucide="sun" class="tema-light"></i>
+          <!-- ↑ Dos íconos: luna (tema oscuro activo) y sol (claro). CSS muestra uno según data-theme. -->
+        </button>
+      </div>
+    </header>
 
-      <!-- Cards por tienda -->
-      <h3 class="sub-seccion">Ofertas por tienda</h3>
-      <div id="grid-tiendas" class="grid-tiendas"></div>
+    <main class="contenido">
+      <!-- ↑ Contenido principal de la página. -->
 
-      <p id="nota-agente" class="nota" hidden></p>
-    </section>
+      <!-- Selector de Tiendas y Búsqueda -->
+      <section class="seccion-busqueda">
+        <!-- ↑ Zona superior: elegir tiendas + escribir el producto. -->
+        <div class="card panel-tiendas">
+          <div class="panel-header">
+            <h3><i data-lucide="store"></i> Elegir Tiendas</h3>
+            <div class="panel-acciones">
+              <button id="btn-todas" class="btn-text">Todas</button>
+              <button id="btn-ninguna" class="btn-text">Ninguna</button>
+              <!-- ↑ Atajos para marcar todas o ninguna tienda (IDs usados en app.js). -->
+              <button id="btn-agregar-tienda" class="btn-text" type="button" title="Agregar una tienda nueva">+ Agregar tienda</button>
+              <!-- ↑ Botón que muestra/oculta el formulario para ingresar una tienda nueva. -->
+            </div>
+          </div>
+          <div id="selector-tiendas" class="selector-tiendas">
+            <!-- Se llena dinámicamente -->
+            <div class="skeleton-tiendas">Cargando tiendas...</div>
+            <!-- ↑ Placeholder que app.js reemplaza con los chips de tiendas de /api/stores. -->
+          </div>
 
-    <!-- Búsquedas anteriores -->
-    <section id="historial-seccion" class="historial">
-      <h3>Búsquedas anteriores</h3>
-      <ul id="lista-historial"></ul>
-      <p id="historial-vacio" class="nota">Todavía no hay búsquedas guardadas.</p>
-    </section>
-  </main>
+          <!-- Formulario para ingresar una tienda nueva (oculto hasta tocar "+ Agregar tienda"). -->
+          <form id="form-agregar-tienda" class="form-agregar-tienda" hidden autocomplete="off">
+            <input
+              id="input-nueva-tienda"
+              type="text"
+              placeholder="Nombre (ej: Easy)"
+              aria-label="Nombre de la tienda nueva"
+              required
+            />
+            <input
+              id="input-nueva-url"
+              type="text"
+              placeholder="https://..."
+              aria-label="URL base de la tienda nueva"
+              required
+            />
+            <!-- ↑ required: sin URL la tienda está incompleta y no se manda al backend. -->
+            <button type="submit" class="btn-agregar">Guardar</button>
+            <button type="button" id="btn-cancelar-agregar" class="btn-text">Cancelar</button>
+          </form>
+          <p id="msg-agregar-tienda" class="msg-agregar" hidden></p>
+          <!-- ↑ Mensaje de éxito o error al intentar agregar la tienda (lo llena app.js). -->
+        </div>
 
-  <footer class="pie">
-    <p>
-      Los precios pueden variar y las tiendas pueden bloquear consultas (anti-scraping, JS dinámico).
-      Resultados a modo informativo.
-    </p>
-  </footer>
+        <div id="aviso-tiendas" class="aviso-banner warn" hidden>
+          <!-- ↑ Aviso ámbar: demasiadas tiendas seleccionadas (la búsqueda puede expirar). -->
+          <i data-lucide="alert-triangle"></i>
+          <span id="tiendas-texto"></span>
+        </div>
+
+        <form id="form-buscar" class="buscador" autocomplete="off">
+          <!-- ↑ Formulario de búsqueda. app.js escucha el evento "submit" para evitar recargar. -->
+          <div class="input-wrapper">
+            <i data-lucide="search" class="icon-search"></i>
+            <!-- ↑ Ícono de lupa posicionado dentro del input. -->
+            <input
+              id="input-query"
+              type="text"
+              placeholder="¿Qué estás buscando? (ej: TV 55, Heladera, Zapatillas...)"
+              aria-label="Producto a buscar"
+              required
+            />
+            <!-- ↑ Input del producto. required = no se envía vacío. aria-label ayuda a lectores de pantalla. -->
+          </div>
+          <button id="btn-buscar" type="submit">
+            <span>Buscar con IA</span>
+            <i data-lucide="sparkles"></i>
+          </button>
+          <!-- ↑ Botón principal de búsqueda. -->
+        </form>
+      </section>
+
+      <!-- Estados: cargando / avisos -->
+      <div id="estado" class="estado-overlay" hidden>
+        <!-- ↑ Overlay (pantalla superpuesta) que se muestra mientras busca. hidden lo oculta al inicio. -->
+        <div class="estado-card">
+          <div class="spinner"></div>
+          <!-- ↑ Círculo animado de carga (CSS con @keyframes spin). -->
+          <div class="estado-info">
+            <h3 id="estado-titulo">Analizando precios...</h3>
+            <p id="estado-texto">Consultando tiendas argentinas con agentes de IA.</p>
+          </div>
+          <button id="btn-cancelar" type="button" class="btn-cancelar">
+            <i data-lucide="x"></i> Cancelar
+          </button>
+          <!-- ↑ Botón para cancelar la búsqueda en curso (mata el proceso de opencode). -->
+        </div>
+      </div>
+
+      <div id="aviso-error" class="aviso-banner error" hidden>
+        <!-- ↑ Banner rojo para errores. app.js escribe en #error-texto. -->
+        <i data-lucide="alert-circle"></i>
+        <span id="error-texto"></span>
+      </div>
+
+      <div id="aviso-cache" class="aviso-banner info" hidden>
+        <!-- ↑ Banner verde informativo cuando el resultado salió del cache. -->
+        <i data-lucide="archive"></i>
+        <span id="cache-texto"></span>
+      </div>
+
+      <!-- Resultados -->
+      <section id="resultado" class="seccion-resultados" hidden>
+        <!-- ↑ Toda la zona de resultados está oculta hasta que haya una búsqueda respondida. -->
+
+        <!-- Dashboard de Análisis -->
+        <div class="dashboard-analisis">
+          <!-- ↑ Tarjeta destacada con la mejor opción (menor precio disponible). -->
+          <div class="card stats-card mejor-opcion-destacada" id="mejor-opcion-card">
+            <div class="stats-label"><i data-lucide="award"></i> MEJOR OPCIÓN</div>
+            <div class="mejor-opcion-content">
+              <div class="mejor-info">
+                <h2 id="mejor-titulo"></h2>
+                <p id="mejor-tienda"></p>
+                <div id="mejor-precio" class="precio-hero"></div>
+              </div>
+              <!-- ↑ Contenido dinámico: título, tienda y precio que rellena app.js. -->
+              <a id="mejor-enlace" class="btn-primary" target="_blank" rel="noopener noreferrer">
+                Ir a la tienda <i data-lucide="external-link"></i>
+              </a>
+              <!-- ↑ Enlace a la tienda de la oferta ganadora (se abre en pestaña nueva). -->
+            </div>
+          </div>
+
+          <div class="stats-grid">
+            <!-- ↑ Grid de 4 estadísticas (mínimo, promedio, máximo, ahorro). -->
+            <div class="card stat-item">
+              <div class="stat-label">Mínimo</div>
+              <div id="stat-min" class="stat-value text-green">-</div>
+            </div>
+            <div class="card stat-item">
+              <div class="stat-label">Promedio</div>
+              <div id="stat-avg" class="stat-value">-</div>
+            </div>
+            <div class="card stat-item">
+              <div class="stat-label">Máximo</div>
+              <div id="stat-max" class="stat-value">-</div>
+            </div>
+            <div class="card stat-item highlight">
+              <div class="stat-label">Ahorro Estimado</div>
+              <div id="stat-ahorro" class="stat-value text-green">-</div>
+            </div>
+            <!-- ↑ Cada valor es un elemento con ID que app.js actualiza con formatearPrecio(). -->
+          </div>
+        </div>
+
+        <!-- Toolbar de Filtros y Orden -->
+        <div class="toolbar-resultados">
+          <h3 class="resumen-conteo" id="conteo-ofertas">Ofertas encontradas</h3>
+          <!-- ↑ Título dinámico con la cantidad de ofertas. -->
+          <div class="filtros-acciones">
+            <label class="checkbox-wrapper">
+              <input type="checkbox" id="filtro-disponibles" checked>
+              <span>Solo disponibles</span>
+            </label>
+            <!-- ↑ Checkbox para filtrar solo ofertas con available: true. -->
+            <div class="select-wrapper">
+              <i data-lucide="arrow-up-down"></i>
+              <select id="orden-ofertas">
+                <option value="precio-asc">Menor precio</option>
+                <option value="precio-desc">Mayor precio</option>
+                <option value="tienda-asc">Tienda A-Z</option>
+              </select>
+              <!-- ↑ Select de orden: cada opción tiene un value que app.js usa para ordenar. -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Grid de Ofertas -->
+        <div id="grid-tiendas" class="grid-ofertas"></div>
+        <!-- ↑ Contenedor vacío: app.js crea las tarjetas de ofertas acá con JS. -->
+
+        <div id="nota-agente" class="nota-agente" hidden>
+          <!-- ↑ Nota explicativa del agente (qué se pudo consultar y qué no). -->
+          <i data-lucide="message-square"></i>
+          <p id="nota-texto"></p>
+        </div>
+      </section>
+
+      <!-- Historial -->
+      <section id="historial-seccion" class="historial">
+        <div class="section-header">
+          <h3><i data-lucide="history"></i> Búsquedas recientes</h3>
+        </div>
+        <div id="lista-historial" class="lista-historial"></div>
+        <!-- ↑ Lista que app.js llena con los items del historial (cache). -->
+        <p id="historial-vacio" class="nota-vacia" hidden>Todavía no hay búsquedas guardadas.</p>
+        <!-- ↑ Mensaje que solo se muestra cuando no hay historial (hidden al inicio). -->
+      </section>
+    </main>
+
+    <footer class="pie">
+      <!-- ↑ Pie de página con el disclaimer legal y la referencia a opencode. -->
+      <div class="pie-content">
+        <p>Los precios son informativos y pueden variar. Se recomienda verificar en el sitio de cada tienda.</p>
+        <p class="pie-tech">Powered by OpenCode AI Agents · Solo Argentina 🇦🇷</p>
+      </div>
+    </footer>
+  </div>
 
   <script src="app.js"></script>
+  <!-- ↑ Carga la lógica del frontend al final del body (así ya existen todos los elementos). -->
 </body>
 </html>

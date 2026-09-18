@@ -14,6 +14,176 @@
       "id": "coto",
       "nombre": "Coto",
       "urlBase": "https://www.coto.com.ar/"
+    },
+    {
+      "id": "mercadolibre",
+      "nombre": "Mercado Libre",
+      "urlBase": "https://www.mercadolibre.com.ar/"
+    },
+    {
+      "id": "oncity",
+      "nombre": "On City",
+      "urlBase": "https://www.oncity.com/"
+    },
+    {
+      "id": "musimundo",
+      "nombre": "Musimundo",
+      "urlBase": "https://www.musimundo.com/"
+    },
+    {
+      "id": "garbarino",
+      "nombre": "Garbarino",
+      "urlBase": "https://www.garbarino.com/"
+    },
+    {
+      "id": "fravega",
+      "nombre": "Frávega",
+      "urlBase": "https://www.fravega.com/"
+    },
+    {
+      "id": "rodo",
+      "nombre": "RODO",
+      "urlBase": "https://rodo.com.ar/"
+    },
+    {
+      "id": "tiribelli",
+      "nombre": "Tiribelli Hogar",
+      "urlBase": "https://tiribellihogar.com.ar/"
+    },
+    {
+      "id": "feelhome",
+      "nombre": "Feelhome",
+      "urlBase": "https://feelhome.ar/"
+    },
+    {
+      "id": "casadelaudio",
+      "nombre": "Casa del Audio",
+      "urlBase": ""
+    },
+    {
+      "id": "computersdepot",
+      "nombre": "Computers Depot",
+      "urlBase": "https://www.depot.com.ar/"
+    },
+    {
+      "id": "soscomputacion",
+      "nombre": "SOS Computación",
+      "urlBase": "https://www.soscomputacion.com.ar/"
+    },
+    {
+      "id": "overhard",
+      "nombre": "Overhard",
+      "urlBase": "https://www.overhard.com.ar/"
+    },
+    {
+      "id": "axacomputacion",
+      "nombre": "AXA Computación",
+      "urlBase": "https://axa.com.ar/"
+    },
+    {
+      "id": "maximusgaming",
+      "nombre": "Maximus Gaming",
+      "urlBase": "https://www.maximus.com.ar/"
+    },
+    {
+      "id": "mymcomputacion",
+      "nombre": "M&M Computación",
+      "urlBase": "https://mymcomputacion.com/"
+    },
+    {
+      "id": "ultracomputacion",
+      "nombre": "Ultra Computación",
+      "urlBase": "https://ultracomputacion.com/"
+    },
+    {
+      "id": "venex",
+      "nombre": "Venex",
+      "urlBase": "https://www.venex.com.ar/"
+    },
+    {
+      "id": "electro5",
+      "nombre": "Electro5",
+      "urlBase": "https://www.electro5.com.ar/"
+    },
+    {
+      "id": "electrogv",
+      "nombre": "Electro GV",
+      "urlBase": "https://electrogv.com.ar/"
+    },
+    {
+      "id": "quamo",
+      "nombre": "Quamo",
+      "urlBase": "https://www.quamo.com.ar/"
+    },
+    {
+      "id": "baires4",
+      "nombre": "Baires4",
+      "urlBase": "https://baires4.com.ar/"
+    },
+    {
+      "id": "furnitech",
+      "nombre": "Furnitech",
+      "urlBase": "https://www.furnitech.com.ar/"
+    },
+    {
+      "id": "jumbo",
+      "nombre": "Jumbo",
+      "urlBase": "https://www.jumbo.com.ar/"
+    },
+    {
+      "id": "disco",
+      "nombre": "Disco",
+      "urlBase": "https://www.disco.com.ar/"
+    },
+    {
+      "id": "vea",
+      "nombre": "Vea",
+      "urlBase": "https://www.vea.com.ar/"
+    },
+    {
+      "id": "changomas",
+      "nombre": "ChangoMas",
+      "urlBase": "https://www.changomas.com.ar/"
+    },
+    {
+      "id": "dia",
+      "nombre": "DIA",
+      "urlBase": "https://diaonline.supermercadosdia.com.ar/"
+    },
+    {
+      "id": "makro",
+      "nombre": "Makro",
+      "urlBase": "https://www.makro.com.ar/"
+    },
+    {
+      "id": "vital",
+      "nombre": "Vital",
+      "urlBase": "https://www.vitalweb.com.ar/"
+    },
+    {
+      "id": "diarco",
+      "nombre": "Diarco",
+      "urlBase": "https://www.diarco.com.ar/"
+    },
+    {
+      "id": "yaguar",
+      "nombre": "Yaguar",
+      "urlBase": "https://www.yaguar.com/"
+    },
+    {
+      "id": "cetrogar",
+      "nombre": "Cetrogar",
+      "urlBase": "https://www.cetrogar.com.ar/"
+    },
+    {
+      "id": "megatone",
+      "nombre": "Megatone",
+      "urlBase": "https://www.megatone.net/"
+    },
+    {
+      "id": "pardohogar",
+      "nombre": "Pardo Hogar",
+      "urlBase": "https://www.pardo.com.ar/"
     }
   ]
 }

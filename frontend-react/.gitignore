@@ -1,0 +1,8 @@
+# ↑ Dependencias y build: nunca se suben al repo.
+node_modules/
+dist/
+
+# ↑ Logs y archivos temporales del sistema.
+*.log
+.DS_Store
+Thumbs.db

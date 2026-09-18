@@ -1,0 +1,142 @@
+{
+  "slug": "tv-32-pulgadas-androit-tv",
+  "query": "TV 32 pulgadas androit tv",
+  "queryNormalizada": "tv 32 pulgadas androit tv",
+  "fecha": "2026-09-17T22:19:12.414Z",
+  "agente": "comparador-precios-ar",
+  "tiendasConsultadas": [
+    "Naldo",
+    "Carrefour",
+    "Coto",
+    "Mercado Libre",
+    "On City",
+    "Musimundo",
+    "Garbarino",
+    "Frávega",
+    "RODO",
+    "Tiribelli Hogar",
+    "Feelhome",
+    "Casa del Audio"
+  ],
+  "ofertas": [
+    {
+      "store": "Naldo",
+      "title": "Smart Tv Bgh 32 B3225g5a Hd Hdmi Android",
+      "price": 299999,
+      "currency": "ARS",
+      "url": "https://www.naldo.com.ar/32-b3225g5a-smart-hd-hdmi-android-506060-1/p",
+      "available": true,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "Carrefour",
+      "title": "Smart Tv Hyundai 32\" HD Android Tv",
+      "price": 333490,
+      "currency": "ARS",
+      "url": "https://www.carrefour.com.ar/smart-tv-hyundai-32--hd-android-tv-1770999/p",
+      "available": true,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "Coto",
+      "title": "Smart Tv Led TOP HOUSE 32\" HD Th3225s5a Android Tv",
+      "price": 269988,
+      "currency": "ARS",
+      "url": "https://www.coto.com.ar/productos/smart-tv-led-top-house-32-hd-th3225s5a-android-tv/_/R-00594445-00594445-200",
+      "available": true,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "Mercado Libre",
+      "title": "Smart Tv Led 32 Hd 91mt3200 Android Motorola (Por Mercado Libre)",
+      "price": 307906,
+      "currency": "ARS",
+      "url": "https://listado.mercadolibre.com.ar/smart-tv-led-32-motorola-mt3200-hd-android-tv",
+      "available": true,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "On City",
+      "title": "Sin TV 32\" Android en catálogo (solo 43\" en adelante)",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.oncity.com/android%20tv/audio-tv-y-video/televisores?map=ft%2Cc%2Cc",
+      "available": false,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "Musimundo",
+      "title": "Sitio en mantenimiento - no se pudo consultar",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.musimundo.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "Garbarino",
+      "title": "Sitio no responde (error de transporte) - sin precio confirmado",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.garbarino.com/smart-tv-audio-y-video/television/brand-motorola/sort-by-price-low-to-high",
+      "available": false,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "Frávega",
+      "title": "Smart Tv Kanji 32\" LED HD KJ-32MT005 Android/Google TV",
+      "price": 267359,
+      "currency": "ARS",
+      "url": "https://www.fravega.com/p/smart-tv-kanji-kj-32mt005-led-hd-32-google-tv-20548525",
+      "available": true,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "RODO",
+      "title": "Sin TV 32\" Android en catálogo (Noblex DV32X5050 es VIDAA)",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.rodo.com.ar/smart-tv-32-noblex-hd-dv32x5050-vidaa-negro.html",
+      "available": false,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "Tiribelli Hogar",
+      "title": "SMART TV BGH 32\" HD (B3225S5A) Android TV",
+      "price": 339999,
+      "currency": "ARS",
+      "url": "https://tiribellihogar.com.ar/tv-bgh-32-hd-smart-010767",
+      "available": true,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "Feelhome",
+      "title": "Sin resultados - la tienda no comercializa TVs",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://feelhome.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    },
+    {
+      "store": "Casa del Audio",
+      "title": "Smart Tv Philco 32\" 91PLD32HS25AH HD Android Tv",
+      "price": 315000,
+      "currency": "ARS",
+      "url": "https://casadelaudio.com/smart-tv-philco-32-91pld32hs25ah-hd-android-tv.html",
+      "available": true,
+      "fetchedAt": "2026-09-17T19:18:30.633Z"
+    }
+  ],
+  "mejorOpcion": {
+    "store": "Frávega",
+    "title": "Smart Tv Kanji 32\" LED HD KJ-32MT005 Android/Google TV",
+    "price": 267359,
+    "currency": "ARS",
+    "url": "https://www.fravega.com/p/smart-tv-kanji-kj-32mt005-led-hd-32-google-tv-20548525",
+    "fecha": "2026-09-17T19:18:30.633Z",
+    "motivo": "Menor precio entre las ofertas disponibles"
+  },
+  "nota": "Se consultaron las 12 tiendas. Con oferta confirmada: Naldo (BGH B3225G5A $299.999), Carrefour (Hyundai $333.490), Coto (TOP HOUSE Th3225s5a $269.988), Mercado Libre (Motorola 91MT3200 $307.906, Por Mercado Libre, 4.8/641), Frávega (Kanji KJ-32MT005 $267.359, Google TV/plataforma Android), Tiribelli Hogar (BGH B3225S5A $339.999) y Casa del Audio (Philco 91PLD32HS25AH $315.000). Sin oferta: On City y RODO no tienen TV 32 pulgadas Android en catálogo; Feelhome no vende TVs; Musimundo está en mantenimiento; Garbarino no respondió al fetch directo (error de transporte; el caché de búsqueda mostraba un Motorola 91MT32E3A a $250.010, sin confirmar). La mejor opción es Frávega ($267.359); si se prefiere un modelo etiquetado estrictamente como Android TV, la mejor es Coto ($269.988).",
+  "fromCache": false
+}

@@ -1,0 +1,392 @@
+{
+  "slug": "computadora-pc-i9-con-ia",
+  "query": "computadora pc i9 con ia",
+  "queryNormalizada": "computadora pc i9 con ia",
+  "fecha": "2026-09-18T02:31:38.397Z",
+  "agente": "comparador-precios-ar",
+  "tiendasConsultadas": [
+    "Computers Depot",
+    "SOS Computación",
+    "Overhard",
+    "AXA Computación",
+    "Maximus Gaming",
+    "M&M Computación",
+    "Ultra Computación",
+    "Venex",
+    "Electro5",
+    "Electro GV",
+    "Quamo",
+    "Baires4",
+    "Furnitech",
+    "Frávega",
+    "Cetrogar",
+    "Megatone",
+    "Naldo",
+    "On City",
+    "Pardo Hogar",
+    "RODO",
+    "Tiribelli Hogar",
+    "Feelhome",
+    "Coto",
+    "Carrefour",
+    "Jumbo",
+    "Disco",
+    "Vea",
+    "ChangoMas",
+    "DIA",
+    "Makro",
+    "Vital",
+    "Diarco",
+    "Yaguar",
+    "Mercado Libre",
+    "Garbarino",
+    "Musimundo",
+    "Casa del Audio"
+  ],
+  "ofertas": [
+    {
+      "store": "Frávega",
+      "title": "Mini PC Geekom IT 13 Intel i9 32GB 1TB SSD Azul",
+      "price": 2111857,
+      "currency": "ARS",
+      "url": "https://www.fravega.com/p/mini-pc-geekom-it-13-intel-i9-32gb-ram-1tb-ssd-azul-22639524/",
+      "available": true,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Mercado Libre",
+      "title": "Notebook Msi Katana 15.6 QHD 165Hz I9 14900HX 2TB 64GB RTX 5070 8GB",
+      "price": 6650000,
+      "currency": "ARS",
+      "url": "https://listado.mercadolibre.com.ar/msi-katana-i9-14900hx-rtx-5070",
+      "available": true,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Computers Depot",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.depot.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "SOS Computación",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.soscomputacion.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Overhard",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.overhard.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "AXA Computación",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://axa.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Maximus Gaming",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.maximus.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "M&M Computación",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://mymcomputacion.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Ultra Computación",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://ultracomputacion.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Venex",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.venex.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Electro5",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.electro5.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Electro GV",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://electrogv.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Quamo",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.quamo.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Baires4",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://baires4.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Furnitech",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.furnitech.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Cetrogar",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.cetrogar.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Megatone",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.megatone.net/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Naldo",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.naldo.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "On City",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.oncity.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Pardo Hogar",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.pardo.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "RODO",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://rodo.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Tiribelli Hogar",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://tiribellihogar.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Feelhome",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://feelhome.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Coto",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.coto.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Carrefour",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.carrefour.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Jumbo",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.jumbo.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Disco",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.disco.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Vea",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.vea.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "ChangoMas",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.changomas.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "DIA",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://diaonline.supermercadosdia.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Makro",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.makro.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Vital",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.vitalweb.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Diarco",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.diarco.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Yaguar",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.yaguar.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Garbarino",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.garbarino.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Musimundo",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.musimundo.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    },
+    {
+      "store": "Casa del Audio",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://casadelaudio.com/tecnologia/computacion/computadoras.html",
+      "available": false,
+      "fetchedAt": "2026-09-17T23:30:53.141Z"
+    }
+  ],
+  "mejorOpcion": {
+    "store": "Frávega",
+    "title": "Mini PC Geekom IT 13 Intel i9 32GB 1TB SSD Azul",
+    "price": 2111857,
+    "currency": "ARS",
+    "url": "https://www.fravega.com/p/mini-pc-geekom-it-13-intel-i9-32gb-ram-1tb-ssd-azul-22639524/",
+    "fecha": "2026-09-17T23:30:53.141Z",
+    "motivo": "Menor precio entre las ofertas disponibles"
+  },
+  "nota": "Se consultaron las 37 tiendas (1 intento por tienda). Solo Frávega y Mercado Libre ofrecen equipos con Intel Core i9: la mejor opción es el Mini PC Geekom IT 13 (i9-13900HK, 32GB, 1TB) en Frávega a $2.111.857; en Mercado Libre el único i9 verificado fue una notebook MSI Katana a $6.650.000 (listado bloqueado por login, precio tomado de snippet de búsqueda). El resto no tiene PC i9: Garbarino (dominio caído) y Musimundo (sitio en mantenimiento) no respondieron; Overhard ya no vende computación (redirige a Overtech, bicicletas); Casa del Audio solo tiene PCs AMD Ryzen; Venex/Maximus venden procesadores i9 sueltos pero no PCs completas; supermercados y mayoristas no ofrecen el producto.",
+  "fromCache": false
+}

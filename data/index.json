@@ -1,12 +1,61 @@
 {
   "tv-32-pulgadas": {
     "query": "TV 32 pulgadas",
-    "fecha": "2026-09-16T01:52:16.872Z",
+    "fecha": "2026-09-17T22:05:03.967Z",
     "archivo": "searches/tv-32-pulgadas.json",
-    "cantidad": 3,
+    "cantidad": 12,
     "tiendas": [
       "Naldo",
-      "Coto"
+      "Carrefour",
+      "Coto",
+      "On City",
+      "Musimundo",
+      "Garbarino",
+      "Frávega",
+      "RODO",
+      "Tiribelli Hogar",
+      "Casa del Audio"
+    ]
+  },
+  "tv-32-pulgadas-androit-tv": {
+    "query": "TV 32 pulgadas androit tv",
+    "fecha": "2026-09-17T22:19:12.414Z",
+    "archivo": "searches/tv-32-pulgadas-androit-tv.json",
+    "cantidad": 12,
+    "tiendas": [
+      "Naldo",
+      "Carrefour",
+      "Coto",
+      "Mercado Libre",
+      "Frávega",
+      "Tiribelli Hogar",
+      "Casa del Audio"
+    ]
+  },
+  "computadora-pc-i9-con-ia": {
+    "query": "computadora pc i9 con ia",
+    "fecha": "2026-09-18T02:31:38.397Z",
+    "archivo": "searches/computadora-pc-i9-con-ia.json",
+    "cantidad": 37,
+    "tiendas": [
+      "Frávega",
+      "Mercado Libre"
+    ]
+  },
+  "silla-game": {
+    "query": "silla game",
+    "fecha": "2026-09-18T02:37:33.665Z",
+    "archivo": "searches/silla-game.json",
+    "cantidad": 37,
+    "tiendas": [
+      "Baires4",
+      "Frávega",
+      "Mercado Libre",
+      "AXA Computación",
+      "M&M Computación",
+      "Venex",
+      "Furnitech",
+      "Quamo"
     ]
   }
 }

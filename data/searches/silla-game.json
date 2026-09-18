@@ -1,0 +1,392 @@
+{
+  "slug": "silla-game",
+  "query": "silla game",
+  "queryNormalizada": "silla game",
+  "fecha": "2026-09-18T02:37:33.665Z",
+  "agente": "comparador-precios-ar",
+  "tiendasConsultadas": [
+    "Computers Depot",
+    "SOS Computación",
+    "Overhard",
+    "AXA Computación",
+    "Maximus Gaming",
+    "M&M Computación",
+    "Ultra Computación",
+    "Venex",
+    "Electro5",
+    "Electro GV",
+    "Quamo",
+    "Baires4",
+    "Furnitech",
+    "Frávega",
+    "Cetrogar",
+    "Megatone",
+    "Naldo",
+    "On City",
+    "Pardo Hogar",
+    "RODO",
+    "Tiribelli Hogar",
+    "Feelhome",
+    "Coto",
+    "Carrefour",
+    "Jumbo",
+    "Disco",
+    "Vea",
+    "ChangoMas",
+    "DIA",
+    "Makro",
+    "Vital",
+    "Diarco",
+    "Yaguar",
+    "Mercado Libre",
+    "Garbarino",
+    "Musimundo",
+    "Casa del Audio"
+  ],
+  "ofertas": [
+    {
+      "store": "Baires4",
+      "title": "Sillon Gamer Regulable Fortnite",
+      "price": 136581,
+      "currency": "ARS",
+      "url": "https://baires4.com.ar/productos/sillon-gamer-fortnite-baires41",
+      "available": true,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Frávega",
+      "title": "Silla Gamer Ergonómica",
+      "price": 150150,
+      "currency": "ARS",
+      "url": "https://www.fravega.com/silla-gamer-ergonomica-22500973/p",
+      "available": true,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Mercado Libre",
+      "title": "Silla Gamer Alpina ft-088",
+      "price": 170000,
+      "currency": "ARS",
+      "url": "https://listado.mercadolibre.com.ar/computacion/accesorios-pc-gaming/sillas-gamer",
+      "available": true,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "AXA Computación",
+      "title": "Silla Gamer Ergo. DONNA AF-C5204 Negra",
+      "price": 215000,
+      "currency": "ARS",
+      "url": "https://axa.com.ar/webaxa/sillas/10219-silla-gamer-ergo-donna-af-c5204-negra-p10219-6938765432108.html",
+      "available": true,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "M&M Computación",
+      "title": "Silla Gamer Trust Roniq Gxt704 Rgb",
+      "price": 271678,
+      "currency": "ARS",
+      "url": "https://mymcomputacion.com/perifericos/silla-gamer/silla-gamer-trust-roniq-gxt704-rgb-191829.html",
+      "available": true,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Venex",
+      "title": "Silla Gamer Raptor Throne R1 Tela",
+      "price": 274990,
+      "currency": "ARS",
+      "url": "https://www.venex.com.ar/sillas-gamers/sillas-gamer/",
+      "available": true,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Furnitech",
+      "title": "Sillón Gamer Pro 2026",
+      "price": 302500,
+      "currency": "ARS",
+      "url": "https://www.furnitech.com.ar/productos/sillon-gamer-pro-2026-mbqnc/",
+      "available": true,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Quamo",
+      "title": "Silla Gamer Genotype X-Tron 1D",
+      "price": 483629,
+      "currency": "ARS",
+      "url": "https://www.quamo.com.ar/8-sillas-gamer",
+      "available": true,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Computers Depot",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.depot.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "SOS Computación",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.soscomputacion.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Overhard",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.overhard.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Maximus Gaming",
+      "title": "Silla Fury Avenger M+ Black-White",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.maximus.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Ultra Computación",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://ultracomputacion.com/sillas-gaming",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Electro5",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.electro5.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Electro GV",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://electrogv.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Cetrogar",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.cetrogar.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Megatone",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.megatone.net/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Naldo",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.naldo.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "On City",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.oncity.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Pardo Hogar",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.pardo.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "RODO",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://rodo.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Tiribelli Hogar",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://tiribellihogar.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Feelhome",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://feelhome.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Coto",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.coto.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Carrefour",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.carrefour.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Jumbo",
+      "title": "SILLA GAMER XTRIKE ME GC-905-RD ROJA",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.jumbo.com.ar/silla-gamer-xtrike-me-gc-905-rd-roja/p",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Disco",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.disco.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Vea",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.vea.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "ChangoMas",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.changomas.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "DIA",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://diaonline.supermercadosdia.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Makro",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.makro.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Vital",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.vitalweb.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Diarco",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.diarco.com.ar/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Yaguar",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.yaguar.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Garbarino",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.garbarino.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Musimundo",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "https://www.musimundo.com/",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    },
+    {
+      "store": "Casa del Audio",
+      "title": "Sin título",
+      "price": null,
+      "currency": "ARS",
+      "url": "",
+      "available": false,
+      "fetchedAt": "2026-09-17T15:00:00.000Z"
+    }
+  ],
+  "mejorOpcion": {
+    "store": "Baires4",
+    "title": "Sillon Gamer Regulable Fortnite",
+    "price": 136581,
+    "currency": "ARS",
+    "url": "https://baires4.com.ar/productos/sillon-gamer-fortnite-baires41",
+    "fecha": "2026-09-17T15:00:00.000Z",
+    "motivo": "Menor precio entre las ofertas disponibles"
+  },
+  "nota": "Se consultaron las 37 tiendas (1 intento por tienda). MEJOR OPCIÓN: Baires4 con 'Sillon Gamer Regulable Fortnite' a $136.581 (50% OFF de $273.164; $116.094 con transferencia). Le siguen Frávega ($150.150, Silla Gamer Ergonómica) y Mercado Libre ($170.000, Silla Gamer Alpina ft-088). También con precio verificado: AXA Computación ($215.000), M&M Computación ($271.678), Venex ($274.990, Raptor Throne R1), Furnitech ($302.500) y Quamo ($483.629). El resto no vende sillas gamer o no se pudo verificar: Megatone, RODO y Cetrogar devolvieron 404 o páginas sin productos renderizados (JS); Computers Depot, Overhard, Electro5 y Electro GV no tienen resultados indexados; Maximus Gaming tiene el producto pero sin stock; Jumbo muestra la Silla Xtrike ME pero la página no cargó el precio; Garbarino está en quiebra y su sitio no responde; Musimundo responde pero no ofrece sillas gamer; Casa del Audio no tiene canal de venta online confirmado; supermercados (Coto, Carrefour, Disco, Vea, ChangoMas, DIA) y mayoristas (Makro, Vital, Diarco, Yaguar) no ofrecen sillas gamer en su catálogo.",
+  "fromCache": false
+}

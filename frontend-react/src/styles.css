@@ -463,9 +463,6 @@ se ve el sol (tema-light). Cada tema muestra solo el ícono del otro modo. */
 .aviso-banner.info { background-color: var(--success-soft); color: var(--success); border: 1px solid var(--success); }
 /* ↑ Dos variantes: .error (rojo) y .info (verde). */
 
-.aviso-banner.warn { background-color: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent); }
-/* ↑ Variante ámbar: aviso de "demasiadas tiendas" (ni error ni info). */
-
 /* Dashboard Analisis */
 .seccion-resultados { display: flex; flex-direction: column; gap: 2rem; margin-top: 1rem; }
 
@@ -771,3 +768,49 @@ se ve el sol (tema-light). Cada tema muestra solo el ícono del otro modo. */
   .toolbar-resultados { flex-direction: column; align-items: flex-start; }
   .filtros-acciones { width: 100%; justify-content: space-between; }
 }
+/* ============================================================
+   Estilos EXTRA de la versión React
+   ============================================================
+   ↑ Estos estilos no existen en la versión HTML/CSS/JS: son
+   detalles propios de la app React (estados de carga, errores
+   sueltos y botones del historial). */
+
+.skeleton-tiendas {
+  grid-column: 1 / -1;
+  /* ↑ Ocupa todo el ancho del grid mientras no hay tiendas. */
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.error {
+  grid-column: 1 / -1;
+  color: var(--danger);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.nota {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+}
+
+.nota-vacia {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.stats-card {
+  /* ↑ El contenedor de "Mejor Opción" reutiliza los estilos de .card. */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn-ver { color: var(--primary); }
+.btn-refresh { color: var(--success); }
+/* ↑ Colorean los dos íconos de acción de cada fila del historial. */
+
+.aviso-banner.warn { background-color: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent); }
+/* ↑ Variante ámbar: aviso de "demasiadas tiendas" (ni error ni info). */
